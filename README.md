@@ -43,6 +43,5 @@ mas-log.saas.redacted.id
 
 ### Contact :
 <ul>
-  <li> Email : contact@dalpan.co</li>
-  <li> FB : fb.com/dalpan.me
+  <li> Email : van@tegalsec.org</li>
 </ul>
