@@ -15,11 +15,10 @@ domain = input("[+] Input domain ndisit : ")
 print ("[+] Sabar boss proses ... \n")
 
 def main(domain):
-	url = "https://api.indoxploit.or.id/domain/{}".format(domain)
+	url = "https://sonar.omnisint.io/subdomains/{}".format(domain)
 	data = requests.get(url).json()
-	ambil_data = data['data']['subdomains']
 	print ("[+] Olihe kie tok : \n")
-	for i in ambil_data:
+	for i in data:
 		print(i)
 
 if __name__ == '__main__':
