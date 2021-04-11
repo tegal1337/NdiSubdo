@@ -20,6 +20,7 @@ def main(domain):
 	print ("[+] Olihe kie tok : \n")
 	for i in data:
 		print(i)
+		open('Result.txt','a').write(str(i) + '\n')
 
 if __name__ == '__main__':
 	main(domain)
